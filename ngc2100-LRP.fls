@@ -126,9 +126,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT NGC2100-rv-regions.png
 INPUT ./NGC2100-rv-regions.png
 INPUT ./NGC2100-rv-regions.png
-INPUT NGC2100-rv-v6.png
-INPUT ./NGC2100-rv-v6.png
-INPUT ./NGC2100-rv-v6.png
+INPUT NGC2100-rv-v7.png
+INPUT ./NGC2100-rv-v7.png
+INPUT ./NGC2100-rv-v7.png
 INPUT NGC2100-sig1d-v6.png
 INPUT ./NGC2100-sig1d-v6.png
 INPUT ./NGC2100-sig1d-v6.png
@@ -145,6 +145,9 @@ INPUT ./NGC2100-HRD-iso.png
 INPUT NGC2100-TeffvsZ-2100-LMC.png
 INPUT ./NGC2100-TeffvsZ-2100-LMC.png
 INPUT ./NGC2100-TeffvsZ-2100-LMC.png
+INPUT NGC2100-logg-dist-v6.png
+INPUT ./NGC2100-logg-dist-v6.png
+INPUT ./NGC2100-logg-dist-v6.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 INPUT ngc2100-LRP.bbl
 INPUT ngc2100-LRP.bbl

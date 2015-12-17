@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex ngc2100-LRP"] 1448560647 "ngc2100-LRP.aux" "ngc2100-LRP.bbl" "ngc2100-LRP" 1448560750
+["bibtex ngc2100-LRP"] 1450197120 "ngc2100-LRP.aux" "ngc2100-LRP.bbl" "ngc2100-LRP" 1450197122
   "journals.bib" 1447233620 114372 078e171152dd8bde3ee803c3e02087e1 ""
-  "ngc2100-LRP.aux" 1448560750 11294 fd3df25c7700c974eae1ff28dfe2a022 ""
+  "ngc2100-LRP.aux" 1450197122 12503 fe7e31c461a27fc86c4e75707743a2c8 ""
   "ngc2100-LRP.bcf" 0 -1 0 ""
   (generated)
-  "ngc2100-LRP.blg"
   "ngc2100-LRP.bbl"
-["pdflatex"] 1448560748 "ngc2100-LRP.tex" "ngc2100-LRP.pdf" "ngc2100-LRP" 1448560750
+  "ngc2100-LRP.blg"
+["pdflatex"] 1450197120 "ngc2100-LRP.tex" "ngc2100-LRP.pdf" "ngc2100-LRP" 1450197122
   "/etc/texmf/web2c/texmf.cnf" 1412757199 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/lee/texmf/tex/latex/MNRAS/mn2e.cls" 1415975653 50683 20facf97cd9703775a6b9e3d13dffd81 ""
   "/home/lee/texmf/tex/latex/journals.sty" 1430156047 5859 96e92dad67df33f866dd0459145d4e2e ""
@@ -111,18 +111,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1392645748 31083 1dfd8bf685ce0009c40532fedf8a7c53 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1421160323 915069 87212e25b3f54b5f850f74f213863760 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1412757211 722335 73369eb762ec09b39cc3d0344b706328 ""
-  "NGC2100-HRD-iso.png" 1447342439 66481 3278738585428edceb21a5fc7bfba89f ""
-  "NGC2100-TeffvsZ-2100-LMC.png" 1445591071 43911 9c23e7c00d670acb068a22e5cd496a60 ""
+  "NGC2100-HRD-iso.png" 1450106542 66222 b20054744ec449f45b6db12def69f8c6 ""
+  "NGC2100-TeffvsZ-2100-LMC.png" 1450107241 39597 2d08b228c83d580347d0f4dcc772c543 ""
   "NGC2100-ZvsR.png" 1445444655 31957 6fe1faf60900e744debae3154b6e9e73 ""
+  "NGC2100-logg-dist-v6.png" 1450108761 28904 0730d6dd33bc17e7d248130f8d6dc38b ""
   "NGC2100-model-fits.png" 1447867983 396715 3c9d6958ddb78d5525f303e72c1bb1eb ""
   "NGC2100-rv-regions.png" 1444380012 105948 1f5028d419c31862ab39f2c4653276e7 ""
-  "NGC2100-rv-v6.png" 1447845874 41982 9086873b9a5044e173ef69c7dc6491e0 ""
+  "NGC2100-rv-v7.png" 1450104726 42742 ca50afa1310b371f2a20383e7281f983 ""
   "NGC2100-sig1d-v6.png" 1447845892 32334 bf0e24775d1c89999a16c618213c6bcf ""
   "NGC2100-targets.png" 1447842024 307616 47ddb5436010b70402822b26d6cd245a ""
-  "ngc2100-LRP.aux" 1448560750 11294 fd3df25c7700c974eae1ff28dfe2a022 ""
-  "ngc2100-LRP.bbl" 1448560647 0 d41d8cd98f00b204e9800998ecf8427e "bibtex ngc2100-LRP"
-  "ngc2100-LRP.tex" 1448560748 46740 eb8fa4a4586534c96b561fd77c3db5a4 ""
+  "ngc2100-LRP.aux" 1450197122 12503 fe7e31c461a27fc86c4e75707743a2c8 ""
+  "ngc2100-LRP.bbl" 1450197120 0 d41d8cd98f00b204e9800998ecf8427e "bibtex ngc2100-LRP"
+  "ngc2100-LRP.tex" 1450174204 49168 56046ba34598d5e83fccb2b888d38e8f ""
   (generated)
-  "ngc2100-LRP.aux"
-  "ngc2100-LRP.log"
   "ngc2100-LRP.pdf"
+  "ngc2100-LRP.log"
+  "ngc2100-LRP.aux"

@@ -86,7 +86,7 @@ Studies of the dynamical state of young massive clusters can distinguish between
 We have obtained KMOS near-IR spectroscopy for 14 red supergiant stars in the young massive star cluster NGC\,2100 in the Large Magellanic Cloud (LMC).
 Radial velocities are estimated for the targets and the dynamical properties are estimated for the first time within this cluster.
 The line-of-sight velocity dispersion is shown to be flat outside of 10\,pc from the cluster centre and is estimated to be
-$\sigma_{1D}~=~3.01\pm0.11\,$\kms.
+$\sigma_{1D}~=~2.4\pm0.4\,$\kms.
 The dynamical mass of the cluster is derived as
 $log(M_{dyn}/M_{\odot})~>~4.8$ assuming virial equilibrium.
 Comparing this to the mass estimated using photometry we find the dynamical mass to be a factor of five smaller.
@@ -107,7 +107,7 @@ Red Supegiants: stars. Clusters: NGC\,2100. Galaxy: LMC.
 % Red supergiant stars (RSGs) have long been explotied to probe extragalactic environments.
 % Owing to their intrinsic brightness and cool temperatures, these stars have a peak wavelength in the near-IR which makes RSGs ideal candidates to study extragalactic environments (refs).
 Globular clusters (GCs) were until recently thought to consist of a simple stellar population where all of the stars within the cluster were formed from in one homogeneous star forming burst.
-Recent results have thrown this traditional view into contention and many GCs have been shown to display an extended main-sequence turn off (ref!), double main sequences (ref!) as well as distinct chemical~\citep{2012A&A...539A..19G} and dynamical(ref!) populations.
+Recent results have thrown this traditional view into contention and many GCs have been shown to display features like an extended main-sequence turn off, double main sequences, as well as distinct chemical and dynamical populations.
 The most accepted method to explain these observations is to evoke a GC with multiple stellar populations.
 
 Young massive clusters are important probes of cluster evolution.
@@ -276,20 +276,21 @@ Not rejecting these outliers has the effect of increasing the error on each indi
 The error on this mean is calculated by taking the standard deviation of the data, normalised by the number of regions used ($err~=~\sigma/N_{regions}$).
 This method is known to work well for KMOS spectra~\citep{2015ApJ...798...23L,2015ApJ...803...14P}.
 
-Figure~\ref{fig:rvs} shows the radial velocities for all targets as a function of distance from the centre of the cluster, shown alongside the systemic radial velocity of the LMC (green dashed line).
-\textbf{Here the cluster centre is defined ... (currently using SIMBAD!).}
-Table~\ref{tb:rvs} displays previous measurements of radial velocities within this cluster.
+Figure~\ref{fig:rvs} shows all stellar radial velocitiy estimates as a function of distance from the centre of the cluster, alongside the systemic radial velocity of the LMC (green dashed line).
+Given the low dispersion of the radial velocity measurments for the KMOS targets, we confirm that all of the targets within this sample are members of NGC\,2100.
+Table~\ref{tb:rvs} details previous measurements of radial velocities within this cluster.
 
-Recently,~\cite{2015arXiv150803490E} used AAOmega to measure radial velocities of massive stars within LMC, which included two sources in NGC\,2100: star 407 (O9.5\,II) $258.5\pm3.4$\,\kms and star 408 (B3\,Ia) $250.6\pm1.3$\,\kms.
+Recently,~\cite{2015arXiv150803490E} used AAOmega to measure radial velocities of massive stars within LMC, which included two sources in NGC\,2100: star 407 (O9.5\,II $258.5\pm3.4$\,\kms) and star 408 (B3\,Ia; $250.6\pm1.3$\,\kms).
 
 \cite{1994A&A...282..717J} measure radial velocities for four RSGs in NGC\,2100~\citep[B17, C2, C32 and C34 using the nomenclature of][]{1974A&AS...15..261R}.
 Three of these stars have been observed with KMOS in the present study (207-0135059; B17, 207-0134811; C2 and 207-0135162; C32).
 A comparison between the radial velocities estimated in JT94 with those presented here highlight the discrepancy between the velocities estimated in this study.
-The estimates in this study are $>$~1, 3 and 2\,$\sigma$ discrepant, respectively, from the estimates in JT94.
+The average offset between the three stars which are common to the samples is $-18.3\pm5.2$\,\kms.
+However, previous stellar radial velocity estimates using KMOS have shown a small, not-statistically significant offsets when compared with previous measurements~\citep{2015ApJ...798...23L,2015ApJ...803...14P}.
+Regardless, we can not ignore the possibility that there exists some systematic offset in the radial velocity measurements estimated in this study.
+% If we apply a radial velocity offset to the KMOS data of $\sim$+10\,\kms we find good agreement with previous results.
+% However, as previous KMOS radial velocities have been shown to yield absolute radial velocities, we have no justification for applying this offset.
 
-
-% In absence of positional information on these stars they have been identified as ... based on their $B-V$, $V$ colours.
-% Their radial velocities range from $255-270\,$\kms with a mean error of 8\,\kms for each star.
 
 \cite{1983ApJ...272..488F} compile integrated light radial velocities from~\cite{1972MNRAS.159..445A} and \cite{1970PhD...........F} to define an average of $267\pm13\,$\kms.
 Whereas~\cite{1971ApJ...169..271S}, measure the radial velocity of the HII gas of NGC\,2100 as $282.2\pm2.5\,$\kms.
@@ -306,10 +307,11 @@ Whereas~\cite{1971ApJ...169..271S}, measure the radial velocity of the HII gas o
 
 
 \begin{figure}
- \includegraphics[width=9.0cm]{NGC2100-rv-v6}
+ \includegraphics[width=9.0cm]{NGC2100-rv-v7}
  \caption{Radial velocities of KMOS targets shown as a function of distance from the cluster centre.
  Green dashed line shows the LMC systemtic veloctiy with the error highlighed by the blue shaded region~\citep[$262.2\pm3.4$\,\kms;][]{2012AJ....144....4M}
  and the solid red line shows the mean of the sample ($242.7\pm2.4\,$\kms).
+ Blue points show the two young stars studied in~\cite{2015arXiv150803490E} and red points show previous esimates for three of the targets~\citep{1994A&A...282..717J}.
 \label{fig:rvs}
           }
 \end{figure}
@@ -540,19 +542,27 @@ Fit parameters for NGC\,2100 KMOS targets
 \subsection{Stellar Parameters} % (fold)
 \label{sub:stellar_parameters_disc}
 As mentioned previously, JT94 measure stellar parameters for four RSGs using optical spectroscopy.
-These authors measure effective temperature, $log\,g$, microturblence and metallicities for each star by comparing their spectra to a set of synthetic spectra.
-A method not dissimilar to out own.
-We find that there are three targets in common with our study: B17, C2, C32.
-Comparing results we find \textbf{that unbelievably, all of the targets in common have problems with their fits! (5 stars have issues with their fits, in total, and three of them are in this sample! To say more on this I need to identify why exactly these fits are perturbed.)}
+These authors measure effective temperature, surface gravity and metallicity for each star by comparing their spectra to a set of synthetic spectra.
+A method not dissimilar to our own.
+We find that there are three targets in common with our study: B17, C2, C32~\citep[using the][nomenclature]{1974A&AS...15..261R}.
+\textbf{Comparing results we find B17 has a spuriously high metallicity for the sample.
+However, this spectrum displays no obvious features of a poor telluric correction or sky subtraction with a signal-to-noise ratio far exceeding that of our minimum threshold to perform the analysis.
+C34 \& C2 have a microturblence value on the edge of the grid.}
 
-When we compare the average values taken from JT94 where we find excellent agreement for all parameters apart from surface gravity where our estimates are within 2$\sigma$ of the previous estimates, however, as this is not a significant outlier no further discussion will be made of this and it will suffice to say that, to within the uncertainties on average our results compare well to previous estimates.
+
+When we compare the average values taken from JT94 we find excellent agreement for all parameters.
 
 % For reference:\\
 % JT94 Teff: $4081\pm75$, $log\,g$: $0.4\pm0.2$, $\xi$: 4.5~\cite[no error quoted in][]{1994A&A...282..717J}.\\
 % Our values: Teff: $3991\pm15$, $log\,g$: $0.76\pm0.05$, $\xi$: $4.26\pm0.08$
 
 Luminosities have been estimated using the bolometric correction in~\cite{2013ApJ...767....3D} and a H-R diagram for the clusters is presented in Figure~\ref{fig:HRD}.
-Overlaid on this H-R diagram are {\sc syclist} stellar isochrones for both SMC-like~\citep[solid lines][]{2013A&A...558A.103G} and solar-like~\citep[dashed lines][]{} at various ages where stellar rotation is 40\% of the critical velocity.
+Overlaid on this H-R diagram are {\sc syclist} stellar isochrones for both SMC-like~\citep[solid lines][]{2013A&A...558A.103G} and solar-like~\citep[dashed lines][]{} at various ages where stellar rotation is 40\% of break-up velocity.
+Even though the temperatures covered by the SMC-like models do not accurately represent the distribution of temperatures observed in this study, it remains useful to fit the data using these models to estimate an age of NGC\,2100.
+The Solar-like models (grey) demonstrate that increasing the metallicity of the sample
+a) decreased the temperatures of the RSGs~\citep[something which is not observed in][]{2015ApJ...803...14P},
+b) induces a blue-ward evolution for the youngest models and
+c) increases the luminosity for the oldest models.
 
 
 % The narrow range in masses implied by the luminosities of the stars (regardless of which evolutionary models is used) adds strength to the argument that these stars were all formed in a single burst of star formation.
@@ -561,20 +571,36 @@ Overlaid on this H-R diagram are {\sc syclist} stellar isochrones for both SMC-l
  \includegraphics[width=9.0cm]{NGC2100-HRD-iso}
  \caption{H-R diagram for 12 RSGs in NGC2100.
   Bolometric corrections computed using~\citet{2013ApJ...767....3D}.
-  Cluster isochrones from~\citet{2013A&A...558A.103G} are overlaid in grey at a metallicity of $Z~=~-0.85\,dex$ without stellar rotation at ages of 10...30\,Myrs.
-\label{fig:HRD}
+  Cluster isochrones for solar~\citep[dashed lines][]{2012A&A...537A.146E} and smc-like~\citep[solid lines][]{2013A&A...558A.103G} metal abundances,
+  where stellar rotation is 40\% of the break-up velocity, are shown for ages of 10-32\,Myr.\label{fig:HRD}
           }
 \end{figure}
 
-In Figure~\ref{fig:TeffvsZ} we compare the estimated effective temperatures and metallicities with those derived for RSGs within the LMC~\citep{2015ApJ...806...21D}.
-This figure shows that the range in metallicities and temperatures estimated in this study compares well with those derived in~\cite{2015ApJ...806...21D}.
+
+\citet{2015ApJ...806...21D} estimate stellar parameters for nine RSGs throughout the LMC using the same methodology as that used in this study.
+In Figure~\ref{fig:TeffvsZ} we compare the effective temperatures and metallicities from NGC\,2100 with those derived for RSGs within the whole LMC.
+We find excellent agreement in the distribution of temperatures from the two studies, with the average agreeing well.
+The range in [Z] from the LMC population is slightly larger than that of the NGC\,2100 RSGs, which is expected when comparing a star cluster with an entire galaxy, however the averages for the two studies agree very well.
+
 
 \begin{figure}
  \includegraphics[width=9.0cm]{NGC2100-TeffvsZ-2100-LMC}
- \caption{Estimated metallicities shown against estimated effective temperature.
+ \caption{Estimated metallicities for NGC\,2100 RSGs in this study shown against effective temperature (green dots).
+        For comparison we show the distribution of LMC RSGs in~\citet[blue triangles][]{2015ApJ...806...21D}.
+        This demonstrates the remarkable agreement between the effective temperature ranges and averages for RSGs within these two samples.
 \label{fig:TeffvsZ}
           }
 \end{figure}
+
+\begin{figure}
+ \includegraphics[width=9.0cm]{NGC2100-logg-dist-v6}
+ \caption{Histogram showing the range of surface gravities estimated. Average value $0.24\pm0.15\,dex$.
+ For Illustration only.\label{fig:TeffvsZ}
+          }
+\end{figure}
+
+
+
 % subsection stellar_parameters (end)
 \subsection{Velocity Dispersion and Dynamical Mass} % (fold)
 \label{sub:velocity_dispersion_Mdyn}
@@ -589,9 +615,10 @@ This figure shows that the range in metallicities and temperatures estimated in 
 
 
 This study represents the first estimate of the line-of-sight velocity dispersion profile for NGC\,2100.
-Comparing the estimated velocity dispersion of NGC\,2100 with that of other young massive clusters in the Local Universe is useful to ascertain whether this cluster shares similar properties to other more well studied young massive clusters.
+Comparing this estimate with that of other young massive clusters in the Local Universe is useful to ascertain whether this cluster shares similar properties to other more well studied young massive clusters.
 We find the dynamical properties NGC\,2100 is well matched by other clusters with similar masses and ages, particularly so with RSGC02, a Galactic young massive cluster.
 Below we compare the dynamical results for NGC\,2100 to that of several young massive clusters first within the LMC and then within the Galaxy.
+A comparison with a small sample of Local Group clusters reveals the trend that younger clusters have a larger line-of-sight velocity which relaxes to $\sim$3\,\kms at 10-100\,Myr.
 
 \subsubsection{Comparison with LMC clusters} % (fold)
 \label{sub:comparison_with_lmc_clusters}
@@ -602,12 +629,14 @@ NGC\,2100 and R136 are both located within the 30 Doradus region and within the 
 R136 is around twice as massive as NGC\,2100 with the photometric mass of R136 being estimated at $\sim10^{5}M_{\odot}$ with an age less than 2\,Myr~\citep{1998ApJ...509..879D,1998ApJ...493..180M,2010MNRAS.408..731C}.
 This makes R136 significantly younger than NGC\,2100 ($\sim20$\,Myr) and it is therefore unsurprising that the velocity dispersion profile is larger for R136 as one would expect a massive cluster to relax over time.
 
-NGC\,1850 is a young LMC massive cluster with a photometric mass of $1.4\times10^{5}$ and a recently revised age of $93\,Myr$~\citep{2015A&A...575A..62N}.
-\citet{2005ApJS..161..304M} report a line-of-sight velocity dispersion for this cluster as $3.0\pm0.7\,$\kms which compares well to the dispersion in NGC\,2100 even though this cluster is significantly older are more massive.
+NGC\,1850 is a young LMC massive cluster with a photometric mass of $1.4\times10^{5}$ and a recently revised age of $93\,$Myr
+\citep{2015A&A...575A..62N}.
+\citet{2005ApJS..161..304M} report a line-of-sight velocity dispersion for this cluster as $3.0\pm0.7\,$\kms which compares well to the dispersion in NGC\,2100 even though this cluster is significantly older and more massive.
 
 NGC\,2004 is a young massive cluster in the LMC with a mass and age similar to that of NGC\,2100~\citep[20\,Myr; $2\times10^{4}M_{\odot}$][and references therein]{2015A&A...575A..62N}.
-\citet{2006A&A...456..623E} obtained multi-epoch spectra for massive stars within this cluster and derive radial velocities without however dynamical analysis of the cluster.
-This cluster has remarkably similar properties to NGC\,2100 and therefore a comparison between their dynamical properties is useful to the intrinsic distribution of dynamical properties within young massive clusters.
+\citet{2006A&A...456..623E} obtained multi-epoch spectra for massive stars within this cluster and derive radial velocities without however a dynamical analysis of the cluster.
+This cluster has remarkably similar properties to NGC\,2100 and therefore a comparison between their dynamical properties is useful to investigate the intrinsic distribution of dynamical properties within young massive clusters.
+However, this is beyond the scope of the current study.
 
 % subsubsection comparison_with_lmc_clusters (end)
 
@@ -616,12 +645,12 @@ This cluster has remarkably similar properties to NGC\,2100 and therefore a comp
 
 RSGC01 is a cluster with a large population of RSGs within the Galaxy~\citep{2007ApJ...671..781D}.
 This cluster is shown to have a mass $\sim3\times10^{4}M_{\odot}$ with an age 17\,Myr and a velocity dispersion of 2.8\,\kms.
-Therefore this cluster compares remarkably well with NGC\,2100.
+Therefore this cluster compares remarkably well with the properties of NGC\,2100.
 
 Westerlund\,1 is a massive young star cluster in the Galaxy with a large population of massive stars~\citep{2005A&A...434..949C}.
 This cluster is young compared to NGC\,2100 with an age of 3.5\,Myr therefore many of the stars which will become RSGs in the future are currently fusing hydrogen on the main sequence.
 The photometric mass of Westerlund\,1 is $\sim3\times10^{4}M_{\odot}$ with a measured velocity dispersion of 5.8\,\kms.
-Like R136 in the LMC, Westerlund1\,1 has a higher velocity dispersion and a young age.
+Like R136 in the LMC, Westerlund\,1 has a higher velocity dispersion and a young age.
 
 % subsubsection galactic_clusters (end)
 
@@ -641,19 +670,21 @@ Like R136 in the LMC, Westerlund1\,1 has a higher velocity dispersion and a youn
 \label{sec:conclusions}
 
 Using KMOS spectra of 14 RSGs in NGC\,2100 we have for the fist time estimated the dynamical properties of this young massive cluster.
-Radial velocities have been estimated using KMOS to a precision of $\sim1$\,\kms, demonstrating that this instrument can be used to study the dynamical properties of stars in external galaxies.
+Radial velocities have been estimated using KMOS, to a precision of $\sim1$\,\kms, demonstrating that this instrument can be used to study the dynamical properties of star clusters in external galaxies.
 
 The line-of-sight velocity dispersion profile has been estimated in Figure~\ref{fig:sig1d} and has been shown to be flat outside 10\,pc from the cluster centre.
 A low velocity dispersion of $\sigma_{1D}~=~3.01\pm0.11\,$\kms has been adopted and NGC\,2100 has therefore been shown to be in virial equilibrium.
-This adds evidence to the theory that young star clusters appear to remain in virial equilibrium from an early age and hence expand owing to stellar evolution of a relatively slow timescales (10Myr; SPZ10).
-We compare the velocity dispersion profiles of other young massive clusters in the LMC and the Galaxy and find that the distribution of velocity dispersions is consistent with this evolution.
-\textbf{Need to illustrate this with a Mass/Age vs sig figure.}
+This adds evidence to the theory that young star clusters appear to remain in virial equilibrium from an early age and hence expand owing to stellar evolution on a relatively slow timescale~\citep[10\,Myr][]{2010ARA&A..48..431P}.
+We compare the velocity dispersion profile estimated here to that of other young massive clusters in the LMC and the Galaxy and find that the distribution of velocity dispersions is consistent with this expansion.
+% \textbf{Need to illustrate this with a Mass/Age vs sig figure.}
 
 Characterisation of the velocity dispersion profile for the cluster allows for the first time the dynamical mass to be estimated (assuming virial equilibrium) as $log(M_{dyn}/M_{\odot})~>~4.8$.
 A discussion of the appropriate value of $\eta$ for this cluster is detailed in Section~\ref{sub:dynamical_mass}.
 
-We also derive stellar parameters using the $J$-band analysis technique~\citep{2010MNRAS.407.1203D} for all targets within the sample and show that the estimated parameters agree well with previous studies within the LMC~\citep{2015ApJ...806...21D}.
-Using temperatures from the analysis technique we construct a H-R diagram of RSGs within NGC\,2100 and estimate the age of the cluster using isochrones fitting~\citep{2013A&A...558A.103G} (Ekstrom12) to be $20\pm5\,$Myr, in good agreement with previous estimate of this cluster~\citep{2015A&A...575A..62N}.
+We estimate stellar parameters for the RSGs in NGC\,2100 using the $J$-band analysis technique~\citep{2010MNRAS.407.1203D} for all targets within the sample.
+We find the average metallicity for RSGs in NGC\,2100 is $-0.30\pm0.11\,dex$, which agrees well with previous studies within this cluster.
+ % and show that the estimated parameters agree well with previous studies within the LMC~\citep{2015ApJ...806...21D}.
+We construct a H-R diagram of RSGs within NGC\,2100 and estimate the age of the cluster using isochrones fitting~\citep{2012A&A...537A.146E,2013A&A...558A.103G} to be $20\pm5\,$Myr, in good agreement with previous estimate of this cluster~\citep{2015A&A...575A..62N}.
 
 
 
@@ -705,6 +736,9 @@ al.(2013)]{2013A&A...558A..56D} Davies, R.~I., Agudo Berbel, A., Wiezorrek, E., 
 
 \bibitem[de Koter et al.(1998)]{1998ApJ...509..879D} de Koter, A., Heap,
 S.~R., \& Hubeny, I.\ 1998, \apj, 509, 879
+
+\bibitem[Ekstr{\"o}m et
+al.(2012)]{2012A&A...537A.146E} Ekstr{\"o}m, S., Georgy, C., Eggenberger, P., et al.\ 2012, \aap, 537, A146
 
 \bibitem[Eldridge et al.(2008)]{2008MNRAS.384.1109E} Eldridge, J.~J.,
 Izzard, R.~G., \& Tout, C.~A.\ 2008, \mnras, 384, 1109
