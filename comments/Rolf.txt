@@ -1,0 +1,64 @@
+
+hi Rolf,
+
+Thanks for your quick feedback on the draft.
+
+> You are a bit short in the discussion of the systematic differences in
+> the rv measurements by your work and Evans et al. or
+> Jasniewitz&Thevenin. It is probably hard to tell what the reason is
+> (could be binarity for the two early types or not?), but the way it is
+> written now it leaves a feeling of uncertainty.
+
+Indeed, partly my fault that there's no real conclusion at present as this
+is bugging the hell out of me - we've ruled out everything we can think
+of, but that small (yet significant) offset cf. every other LMC velocity
+I've ever measured doesn't feel right. Will muse on this further over the
+break!
+
+Happy Christmas!
+Chris
+Rolf Peter Kudritzki [kud@IfA.Hawaii.Edu]
+[Reply] [Reply All] [Forward]
+Actions
+In response to the message from Lee R. Patrick, Fri 12/18
+To:
+ Lee R. Patrick
+Cc:
+ Christopher Evans‎; Ben Davies ‎[b.davies@ljmu.ac.uk]‎‎; N.J.Bastian@ljmu.ac.uk‎; E.Beasor@2010.ljmu.ac.uk‎; Rolf Peter Kudritzki ‎[kud@ifa.hawaii.edu]‎
+
+Tuesday, December 22, 2015 9:40 AM
+Hi Lee,
+
+I read the draft more carefully now. Beyond what Nate has been pointing
+out, I have not much to add at this stage, just a few suggestions. In the
+introduction it would be good to mention:
+Lardo et al., 2015, paper on the Antennae and
+Gazak et al., 2014 paper on the M83 to point out the
+importance of clusters for cosmological abundance studies. Nates idea to
+create an integrated light J-band spectrum of NGC 2100 is very good. One
+could do the same test as in Zach's Per OB1 paper and test whether you get
+the same average metallicity. One could also compare the integrated
+spectra directly. I also wonder whether you could make an experiment and
+overplot the RSG HRDs of Per OB1 and NGC 2100. They have almost the same
+age, thus, the test would be whether the metallicty differences cause
+differences in the observed HRD.
+
+You are a bit short in the discussion of the systematic differences in the
+rv measurements by your work and Evans et al. or Jasniewitz&Thevenin. It
+is probably hard to tell what the reason is (could be binarity for the two
+early types or not?), but the way it is written now it leaves a feeling of
+uncertainty. If the absolute value is not so important and only the
+dispersion counts, maybe you should emphasize this. By the way, it is not
+clear to me how with these few objects you measure dispersion as a
+function of radius. You should explain this a bit more.
+
+The metallicity in the very last paragraph is inconsistent with what hase
+been said before.
+
+I think discussing the virial vs photometry masses in the light of cluster
+virialization and a discussion of stellar evolution as a function of
+metallicity (Per OB1 vs NGC2100) are two good punch lines for the paper.
+
+Cheers
+
+Rolf
