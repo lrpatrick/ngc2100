@@ -1,0 +1,110 @@
+2nd round of comments
+------------------------------------------------------------------------------
+Ben:
+If you include all the stars within a given radius, then at large radii
+you just asymptote to the average cluster v_disp. Never done this before
+myself, but it doesn't sound right to include all stars within a given
+radius.
+
+Nate/Mark/Vincent, do you have an opinion on this?
+
+PS, I checked your model fits against mine, here's the comparison. I get
+an average [Z] = -0.31±0.12. There looks to be just one star that is
+massively different.
+
+Cheers, Ben.
+------------------------------------------------------------------------------
+Hi Ben,
+
+I would have thought that just taken all stars within the cluster radius (with velocities consistent with being part of the cluster) would be a reasonable way to go.  I can imagine that there are subtle effects regarding on how the cluster profile is sampled, but I would have thought that these would be secondary concerns….
+
+Mark, Anna Lisa, Vincent, any thoughts?
+
+cheers,
+Nate
+------------------------------------------------------------------------------
+Hi Lee et al.,
+
+As Ben mentioned, by including all stars within a given radius for each point in Figure 3, you are essentially plotting the average cluster dispersion within an increasingly large radius. I guess this is fine as long as you're clear about what you're plotting. But what you're showing in that figure is not what most people would call the "velocity dispersion profile".
+
+To discuss whether the velocity dispersion profile is flat, computing the dispersion in a few radial bins would indeed seem more natural. Unfortunately you're already dealing with a small number of stars, so the error on the dispersion in individual radial bins will be large and I doubt you'll be able to constrain the shape of the dispersion profile very well.
+
+Also, I'm a bit puzzled by your Figure 4 and how it relates to the value of sigma_1D that you quote in the abstract. The figure seems to suggest that measurement errors alone can account for most of the scatter in the observed radial velocities, in which case the true velocity dispersion of the cluster may be much lower (and possibly unresolved). If this is the case, the claim that the dynamical mass is significantly larger than the photometric mass may not hold.
+
+Cheers,
+
+Vincent
+------------------------------------------------------------------------------
+Hi Lee,
+
+I still feel that the discussion whether there is agreement or
+disagreement with previous measurements needs to be extended somewhat,
+although with your new vrad values you are now much closer to the previous
+work.
+
+When you compare your vrad with the Evans et al. OB stars, you conclude
+that binarity obviously is not important because the two data sets agree
+(page 3, 2nd column, 3rd para). However, later binarity becomes the big
+problem solver.
+
+I agree with Ben and Vincent that your Fig. 3 does not really show a
+radial profile. For this, measuring sigmas in radial bins would be more
+appropriate. If you want to keep Fig. 3 as is, because you may not have
+enough objects per adopted radial bin, then you need to change the text in
+the caption.
+
+I agree with Vincent that Fig. 4 provides a good argument that the
+discrepancy between dynamic and photometric mass is not significant.
+
+Your discussion of the role of binarity for sigma goes back and forward.
+At the one hand, the two OB stars agree with the RSG and you conclude
+binarity may not be important (see above), but of course, this is very
+small number statistics. Then, you use the compelling Davies et
+al. argument why RSGs should not be close binaries, only to later argue
+that binarity is the explanation. You apply the Gieles at al. 25%
+binarity reduction and comment that this solves the problem. But the 25%
+reduction does very likely not apply to RSGs because of the Davies et al.
+close binary evolution argument. I think you need to straighten this
+discussion.
+
+Could you add the measured value for reff somewhere in the text, for those
+who want to use eq (5) to calaculate masses themselves?
+
+The new figure 7 is good, however, can one really argue that there is no
+trend in Teff between Per OB1 and NGC 2100? There are 3 objects in per OB1
+which are significantly cooler! That surprises me and is not what I had
+expected but it is a fact. Is it important that they are also the most
+luminous objects? With regard to the Teff discussion, on page 8 (left
+column, 2nd para) what do you mean by the average effective temperatures
+are "consistent"? Are they the same within the errors (what are the two
+average values and the sigmas)?
+
+The average cluster spectrum and its analysis is a nice addition to the
+paper.
+
+Cheers
+
+Rolf
+
+------------------------------------------------------------------------------
+
+Dear Lee,
+
+Thank you very much for sharing the draft. I have not had the time to read it in detail, but I am glad to see you went after this interesting cluster.
+
+I would be surprised if the mass of this cluster is 10^5. Apart from the issue of binarity, I wonder whether it is safe to assume that the RSGs are bound to the cluster. From the image it seems the RSGs are more spread out then the MS stars. What is the half-number radius of the RSGs that you used for the mass determination? Do you have a measurement of the half-light radius of the MS stars, ie with the RSGs light subtracted?
+
+Cheers,
+Mark
+------------------------------------------------------------------------------
+
+Got it. Reply to reduced sample:
+
+It would be interesting to see whether the radius of McLaughlin & Van der Marel is due to the RSGs, or not. It should be trivial to determine the half-number radius of RSGs from the positions of the RSGs, can you do that? A second step would be to subtract the RSGs light from the optical image and determine the cumulative light profile without RSGs.
+
+On the previous notes: Ben is right that the v_rms of all stars is what is needed for the M_dyn equation (for an isotropic system, when radial anisotropy is important, the v_rms from the LOS velocities are higher), but one needs to always wonder whether the stars in the sample have the v_rms of the cluster (more massive stars can move slower because of mass segregation, or faster if they are unbound).
+
+Kind regards,
+Mark
+
+------------------------------------------------------------------------------

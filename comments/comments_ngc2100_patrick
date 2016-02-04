@@ -1,0 +1,37 @@
+# Last update: 03-02-16
+
+Some comments for the paper on NGC 2100 by Emilio Lapenna
+
+Tick 1) Affiliation: Lee please add for me also the following affiliation:
+"INAF-Osservatorio Astronomico di Bologna, via Ranzani 1, I-40127, Bologna, Italy"
+
+Tick (I think)2) Introduction, first par: 'stellar exotic', what you mean here? for me this steatment is not clear.
+I'am an expert of this field (in Globulars) and in my opinion you should clarify if you mean blue stragglers, millisecond pulsars and/or IMBH.
+In any case I do not agree because the exotica form in GC thanks to their high denisties, which probably are hard to reach in other
+less dense environments like YMCs. Or there are other evidences in this sense that I miss?
+
+Tick 3) Results, page 3, section 3.1: the citation (Patrick et al. 2015) must be properly written Patrick et al. (2015), note the brackets.
+
+Tick 4) Capiton of Figure 2: For me is important that in the first line for KMOS data (yours) you add the color, 'black dots'.
+For distinguish them form the 'other' dataset.
+
+Tick 5) Section 3.1, second par.: when you introduce the '(i.e. sigma/nlines). Why you choose to divide the sigma for nlines instead of sqrt(nlines)?
+Or probably are you missing the square root here?
+
+Tick 6) Section 3.1, fourth par: 'using a Markov... (MCMC)', I think that here you should give just more details,
+for instance how many simulation do you have performed?
+moreover, do you started from a velocity distribution equal to that found from your data (i.e. from a sample of 14 stars with the observed distribution)?
+
+Tick 7) Figure 3, caption: I understand what you mean (and what is in your plot) but I think that for clarity you should give fro the 2 histograms also
+the y-axis labels. This point recalls my previous point (6), I guess that here we miss the number of randomly generated stars from the MC.
+
+Tick 8) Figure 4, top panel: Please consider to slightly enhance the font size of element labels (like MgI, FeI) for help readability.
+You can also consider to write them on different levels and connect the label with the line by a vertical short arrow/segment.
+
+Tick 9) Figure 6, I found confusing the position of gray labels like 12 Myr, 16 Myr, ecc... for tag different isochrones (continous vs dashed lines).
+You can consider the option to make one dataset with a darker gray colour.
+
+Tick 10) Just a final global point: I noted in all Sections that you write the logaritmic 'dex' label in italic style (mybe you use $dex$).
+I found it quite unusual, is it your personal preference or there is another reason?
+
+

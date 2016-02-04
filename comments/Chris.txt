@@ -1,0 +1,53 @@
+#############################################################################
+Chris' comments on Table 1.
+#############################################################################
+I've been going through the past references to the R74 idents. For the
+targets in Table 1, I think you should sort these by RA - at the moment
+the last three are out of sequence?
+
+Equally, if we're going to refer to
+the R74 idents, then add a note in the footnotes that this is where the
+aliases are from.
+
+Going through the (reordered) list, visually and then cross-checking with
+SIMBAD:
+
+05:41:47.873 -69:12:05.959  D15
+05:41:52.430 -69:12:30.410  D16
+05:41:57.286 -69:12:16.480  C2
+05:42:00.722 -69:11:36.925  C8
+05:42:03.877 -69:13:07.410  B4
+05:42:04.762 -69:10:58.816  out of R74 field
+05:42:06.348 -69:12:20.150  ambiguous given likely colour effects of
+R74 cf. near-IR: B17 or B16 - blended in cube?
+05:42:06.764 -69:12:31.245  as previous, but now with A125 or A127
+05:42:07.435 -69:11:43.692  C12
+05:42:09.647 -69:13:11.263  B47
+05:42:10.001 -69:13:28.210  C32
+05:42:11.574 -69:12:48.770  I think this is a blend of B39 or 40, but
+SIMBAD suggests A4 - which doesn't make sense to me.
+05:42:11.592 -69:13:09.257  B46
+05:42:12.182 -69:12:13.144  B22
+
+B17 is *much* brighter than B16 in the Robertson optical plate, and fair
+enough if JT94 reckon that it's that one...
+
+Tracking down the ref for the B39/40 star, the cross-match to A4 appears
+to be from Egan et al. (2001):
+   http://cdsarc.u-strasbg.fr/viz-bin/nph-Cat/txt?J%2FAJ%2F122%2F1844/table2.dat.gz
+their source 1435, which is puzzling as even Robertson didn't have a star
+A4 - so must be a typo on the part of the Egan paper(?)  Going back to
+both the VISTA and (fuzzy) Keller et al. images, I can't see a trace of
+B39 (plate defect?) so I'd go with B40.
+
+Closer scrutiny of the R74 cf. VISTA image suggests A127 to me for the 3rd
+tricky one - which is bourne out by the R74 photometry where A127 is
+really red cf. A125.
+
+Sorry to labour this somewhat, just a loose end I wanted to tie-off!
+
+Equally, we should quote the original sources for the optical photometry
+in Table 1 rather than just SIMBAD; and if we don't actually use it in the
+end, then maybe no need even to include it if it's not adding anything?
+
+C
