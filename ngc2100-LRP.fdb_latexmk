@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex ngc2100-LRP"] 1454594425 "ngc2100-LRP.aux" "ngc2100-LRP.bbl" "ngc2100-LRP" 1454594426
+["bibtex ngc2100-LRP"] 1454669999 "ngc2100-LRP.aux" "ngc2100-LRP.bbl" "ngc2100-LRP" 1454670000
   "journals.bib" 1447233620 114372 078e171152dd8bde3ee803c3e02087e1 ""
-  "ngc2100-LRP.aux" 1454594426 13356 da39b90653101a2aa8fd18e90bf72f61 ""
+  "ngc2100-LRP.aux" 1454670000 13356 7f653ecb7e39492099d42f862e355b0d ""
   "ngc2100-LRP.bcf" 0 -1 0 ""
   (generated)
-  "ngc2100-LRP.bbl"
   "ngc2100-LRP.blg"
-["pdflatex"] 1454594425 "ngc2100-LRP.tex" "ngc2100-LRP.pdf" "ngc2100-LRP" 1454594426
+  "ngc2100-LRP.bbl"
+["pdflatex"] 1454669999 "ngc2100-LRP.tex" "ngc2100-LRP.pdf" "ngc2100-LRP" 1454670000
   "/etc/texmf/web2c/texmf.cnf" 1412757199 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/lee/texmf/tex/latex/MNRAS/mn2e.cls" 1415975653 50683 20facf97cd9703775a6b9e3d13dffd81 ""
   "/home/lee/texmf/tex/latex/journals.sty" 1430156047 5859 96e92dad67df33f866dd0459145d4e2e ""
@@ -120,10 +120,10 @@
   "NGC2100-sig1d-bins.png" 1454520082 28719 6b584a6552af6f04058e1a5551e2e7e4 ""
   "NGC2100-sigRV-triangle.png" 1454069456 90384 756290a91e988c498fa65152015cc538 ""
   "NGC2100-targets.png" 1450439227 302998 cfa9b73d1a144eedc8c0a7ac2d81306c ""
-  "ngc2100-LRP.aux" 1454594426 13356 da39b90653101a2aa8fd18e90bf72f61 ""
-  "ngc2100-LRP.bbl" 1454594425 0 d41d8cd98f00b204e9800998ecf8427e "bibtex ngc2100-LRP"
-  "ngc2100-LRP.tex" 1454594421 68306 b01ee1fd2dbe9ac98b402b44f86c84e7 ""
+  "ngc2100-LRP.aux" 1454670000 13356 7f653ecb7e39492099d42f862e355b0d ""
+  "ngc2100-LRP.bbl" 1454669999 0 d41d8cd98f00b204e9800998ecf8427e "bibtex ngc2100-LRP"
+  "ngc2100-LRP.tex" 1454669995 68304 0aa5d283b7548f3699912f0640e2b09f ""
   (generated)
+  "ngc2100-LRP.aux"
   "ngc2100-LRP.log"
   "ngc2100-LRP.pdf"
-  "ngc2100-LRP.aux"
